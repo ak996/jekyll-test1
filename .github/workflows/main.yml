@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.5
         env:
-          JEKYLL_PAT: ${{ secrets."86684096bcd16da33e2900c277fb64cce5513b92" }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
